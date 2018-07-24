@@ -1,0 +1,154 @@
+<head>
+    <style type="text/css">
+        @charset "UTF-8";
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <title>[LS]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="/assets/css/materialize.css?s">
+    <style>
+        @import url('assets/css/animate.css');
+        @import url('assets/css/custom.css?c=');
+        *,
+        html,
+        body {
+            margin: 0;
+            z-index: 20 !important;
+        }
+
+        html,
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(/assets/img/texture1080.png) !important;
+            background-color: #141414 !important;
+            overflow: hidden;
+            z-index: -9999 !important;
+        }
+
+        ::-webkit-scrollbar-track {
+            border: 1px solid black;
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background-color: #F5F5F5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000000;
+        }
+
+        div#content {
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+            padding: 51px 0 0 0;
+        }
+
+        #panel {
+            transition: 5s;
+            background-color: rgba(14, 14, 14, 0.9);
+            width: 100%;
+            padding: 15px;
+            color: white;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            z-index: 99 !important;
+            position: fixed;
+        }
+
+        #panel:hover {
+            cursor: pointer;
+        }
+
+        #panel>ul {
+            margin-top: -5px;
+            float: right;
+        }
+
+        #panel>ul>li {
+            transition: 3s;
+            display: inline;
+            margin: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        #panel>ul>li:hover {
+            transition: 0.1s;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+            cursor: pointer;
+            padding: 0 0 5px 0;
+        }
+
+        #content>.container {
+            color: white;
+            width: 100vw !important;
+            height: 100vh !important;
+            padding: 20px 20px 220px 20px;
+            display: none;
+            overflow: auto;
+            position: relative;
+            bottom: 0;
+            z-index: 99;
+        }
+
+        .tab_active {
+            padding: 0 0 5.5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+        }
+
+        ul:after {
+            list-style: square;
+        }
+
+        .fok li {
+            padding: 5px;
+        }
+
+        .fok li:hover {
+            transition: 2s;
+            background-color: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+        }
+
+        #particles {
+            z-index: 0 !important;
+        }
+
+        #particles canvas {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0 !important;
+        }
+    </style>
+    <script type="text/javascript" src="//cdn.legitsoulja.info/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.legitsoulja.info/angular/angular.min.js"></script>
+    <script type="text/javascript" src="//cdn.legitsoulja.info/acl/acl.min.js"></script>
+    <script type="text/javascript" src="/assets/js/mrjs.min.js"></script>
+    <script type="text/javascript" src="/assets/js/materialize.min.js?s"></script>
+    <script type="text/javascript" src="//use.fontawesome.com/d8196c95ca.js"></script>
+    <link href="https://use.fontawesome.com/d8196c95ca.css" media="all" rel="stylesheet">
+    <script type="text/javascript" src="/assets/js/particles.min.js"></script>
+</head>
